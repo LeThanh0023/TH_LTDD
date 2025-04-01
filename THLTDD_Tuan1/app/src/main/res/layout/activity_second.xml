@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#8BC34A"
+        android:gravity="center"
+        android:text="THÔNG TIN SINH VIÊN"
+        android:textAlignment="center"
+        android:textColor="#E20E0E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_HoTen"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="HỌ VÀ TÊN:"
+        android:textAlignment="viewStart"
+        android:textColor="#FBFAFA"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_MSSV"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="MSSV:"
+        android:textAlignment="viewStart"
+        android:textColor="#F8F7F7"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_Lop"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="LỚP:"
+        android:textAlignment="viewStart"
+        android:textColor="#FBFBFB"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_SDT"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="SĐT:"
+        android:textAlignment="viewStart"
+        android:textColor="#FDFDFC"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_Nam"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="SINH VIÊN NĂM THỨ:"
+        android:textAlignment="viewStart"
+        android:textColor="#FDFDFC"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_ChuyenNganh"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="CHUYÊN NGÀNH:"
+        android:textAlignment="viewStart"
+        android:textColor="#FDFDFC"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_Back"
+        android:layout_width="119dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="BACK" />
+</LinearLayout>
