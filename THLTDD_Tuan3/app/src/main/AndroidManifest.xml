@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Login">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true"> <!-- Đã thêm android:exported -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoggedIn" android:label="Logged In" android:exported="false"/>
+        <activity android:name=".SignUp" android:label="Sign Up" android:exported="false"/>
+        <activity android:name=".Forgot" android:label="Forgot Password" android:exported="false"/>
+        <activity android:name=".ViewAccounts" android:label="View Saved Accounts" android:exported="false"/>
+
+    </application>
+</manifest>
