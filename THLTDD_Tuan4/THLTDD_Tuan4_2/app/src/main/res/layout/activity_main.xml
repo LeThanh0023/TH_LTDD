@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#F0E0C0"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="389dp"
+        android:layout_height="182dp"
+        android:src="@drawable/img_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="LỊCH SỬ TRONG TA"
+        android:textColor="#00AA00"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTakeQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#00AA00"
+        android:text="Bắt Đầu"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3b5998"
+            android:text="Facebook Login"
+            android:textColor="#FFFFFF" />
+
+        <Space android:layout_width="16dp" android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#db4437"
+            android:text="Google Login"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>
