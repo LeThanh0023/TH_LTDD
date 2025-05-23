@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.listviewstudent"
+    namespace = "com.example.danhsachsinhvien"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.listviewstudent"
+        applicationId = "com.example.danhsachsinhvien"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

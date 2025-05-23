@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">ListviewStudent</string>
+    <string name="app_name">DanhSachSinhVien</string>
+    <string name="student_name">Họ tên</string>
+    <string name="student_id">MSSV</string>
+    <string name="student_phone">Số điện thoại</string>
+    <string name="student_hometown">Quê quán</string>
+    <string name="student_birth_year">Năm sinh</string>
 </resources>
